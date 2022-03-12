@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test Round - 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="PostJob.css">
+  </head>
+  <body>
+    <nav class="navbar  navbar-static-top example6" >
+      <div class="container">
+        <div class="navbar-header" style="height:73px;">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar6">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar" style="background-color:skyblue;"></span>
+            <span class="icon-bar" style="background-color:skyblue;"></span>
+            <span class="icon-bar" style="background-color:skyblue;"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+        
+         </a>
+         <div class="headings">
+           <h4>Placement Portal</h4>
+           <h6>Portal reg.</h6>
+         </div>
+        </div>
+        <div id="navbar6" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right" style="margin-top:2%;">
+            
+            <li><a href="#">ACADAMICS</a></li>
+            <li><a href="#">POLICY</a></li>
+            
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+	
+                                                                           <!-- Details Section -->
+       <div class="row loginAreaImage" style="margin-left:0;">
+        </div>
+        <div  class="container-fluid col-lg-12" style="margin-top: -430px;">
+          <div class="card" style="width:80%; height: 1825px;">
+            <div class="col-lg-12">
+
+              <div class="col-md-12">
+                <a href="#">
+                <span><i class="fas fa-home"></i></span>
+                </a>
+                <button type="button" class="btnmn" id="bt1"><a href="file:///H:/placement%20portal/rku%20archathon/personaldetail.html" >Personal Details</a></button>
+                <button type="button" class="btnmn" id="bt2"><a href="file:///H:/placement%20portal/rku%20archathon/collegedetails.html">College  Details</a></button>
+                <button type="button" class="btnmn" id="bt3">Post Job</button>
+              <!-- </div> -->
+              <!-- <div class="col-md-8 col-sm-6" style="margin-left:50%;"> -->
+                <button type="button" class="btnmn" id="bt4" name="button" style="margin-left:13%;">Dashboard</button>
+                
+                <button type="button" class="btnmn" id="bt6" name="button">LogOut</button>
+              </div>
+            </div>
+            <br>
+             <hr>
+             <div class="card" style="width:80%;  margin-top:5%; padding:3%;">
+                 <div class="container">
+                   <div class="c-head">
+                     <h4>Round - 1</h4>
+                     <hr>
+                   <form>
+                     <div>
+                        <label for="usr">Select Type Of Offers</label><br>
+                        
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                         Job
+                        </label>
+
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                         Intrenship Only
+                        </label>
+
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                         Job and Intrenship 
+                        </label>
+
+                     </div>
+                      
+                     <div class="form-group">
+                       <label for="usr">Select Primary Profile</label>
+                       <input list="Profile" type="text" class="form-control" id="usr" placeholder="Java Developer" style=" background-color:#D1D1D1; width:60%;">
+                       <datalist id="Profile">
+                        <option value="Java Developer">
+                        <option value="Frontend Developer">
+                        <option value="Backend Developer">
+                        <option value="Full Stack Developer">
+                        <option value="IOS Developer">
+                      </datalist>
+                     </div>
+                     <div class="form-group">
+                       <label for="emial">Location(s)</label>
+                       <input type="email" class="form-control" id="email" placeholder="City Name" style="background-color:white; width:60%;">
+                     </div>
+                     <div class="form-group">
+                      <label for="emial">Number of Position(offer)</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter the number only" style="background-color:white; width:60%;">
+                     </div>
+                     <div class="form-group">
+                       <label for="emial">Deadline for Students to Apply</label>
+                       <input type="email" class="form-control" id="email" placeholder="Day-Month-Year" style="background-color:white; width:60%;">
+                     </div>
+                     <div class="form-group">
+                      <label for="emial">Date (Preffered) for the drive</label>
+                      <input type="email" class="form-control" id="email" placeholder="Day-Month-Year" style="background-color:white; width:60%;">
+                     </div>
+                     <div class="form-group">
+                      <label for="usr">Organization Sector</label>
+                      <input list="Sector" type="text" class="form-control" id="usr" placeholder="Write your sector" style=" background-color:#D1D1D1; width:60%;">
+                      <datalist id="Sector">
+                       <option value="Java Developer">
+                       <option value="Frontend Developer">
+                       <option value="Backend Developer">
+                       <option value="IOS Developer">
+                       <option value="Full Stack Developer">
+                     </datalist>
+                     </div>
+                     <div class="form-group">
+                       <label for="comment">Job Discription</label>
+                       <textarea class="form-control" rows="5" id="comment" style="width:60%;"></textarea>
+                     </div>
+                     <div class="form-group">
+                      <label for="usr">Package to offer</label>
+                      <input type="email" class="form-control" id="email" placeholder="LPA(in INR)" style="background-color:white; width:60%;">
+                     </div>
+                     <div class="from-group">
+                       <label for="usr">Skills that you are looking for</label>
+                       <input type="text" class="form-control" style="background-color:white; width: 60%">
+                     </div>
+                     <div style="margin-top:10px">
+                      <label for="usr">Experience ( in years)</label><br>
+                      
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">1</label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">2</label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">3</label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">4</label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">5</label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">6</label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">7</label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">8</label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">9</label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label1" for="exampleRadios1" style="padding:0.5%;">10</label>
+                     </div>
+                     <div>
+                      <label for="usr" style="margin-top:20px;">Selection Process</label>
+                      <div class="checkbox" style="padding:0.5% 0.5% 0.5% 0;">
+                       <label><input type="checkbox" value="" style="height: 25px; width:25px; ">&nbsp;&nbsp;Shortlist from Resumes</label>
+                      </div>
+                      <div class="checkbox" style="padding:0.5% 0.5% 0.5% 0;">
+                       <label><input type="checkbox" value="" style="height: 25px; width:25px;">&nbsp;&nbsp;Written Test - Aptitute</label>
+                      </div>
+                      <div class="checkbox" style="padding:0.5% 0.5% 0.5% 0;">
+                       <label><input type="checkbox" value="" style="height: 25px; width:25px;" >&nbsp;&nbsp;Group Discussion</label>
+                      </div>
+                      <div class="checkbox" style="padding:0.5% 0.5% 0.5% 0;">
+                       <label><input type="checkbox" value="" style="height: 25px; width:25px;">&nbsp;&nbsp;Personal Interview(Technical+HR)</label>
+                      </div>
+                      <div class="checkbox" style="padding:0.5% 0.5% 0.5% 0;">
+                       <label><input type="checkbox" value="" style="height: 25px; width:25px;">&nbsp;&nbsp;Written Test - Technical</label>
+                      </div>
+                      <div class="checkbox" style="padding:0.5% 0.5% 0.5% 0;">
+                       <label><input type="checkbox" value="" style="height: 25px; width:25px;" >&nbsp;&nbsp;Others:</label>
+                       <input type="text" id="fname" name="fname">
+                      </div>
+                     </div>
+                     <div class="form-group">
+                       <label for="comment">Any other details</label>
+                       <textarea class="form-control" rows="7" id="comment" style="width:60%;"></textarea>
+                     </div>
+                      <div>
+                      <button type="button" name="button" style="padding:6px 40px ; background-color:rgb(21, 208, 241); color:white; margin-left:45%;"><a href="file:///H:/placement%20portal/rku%20archathon/Givetest.html">Next</a></button>
+                     </div>
+                   </form>
+                 </div>
+               </div>
+             </div>
+           </div>
+          </div>
+        <div class="row">
+          <div class="container-fluid col-lg-12">
+            <div class="Blank" style=" margin:20%;">
+            </div>
+          </div>
+        </div>
+                                                                          <!-- Footer -->
+
+        <footer class="container-fluid text-left">
+            <div class="row">
+                 <div class="col-sm-3">
+                  
+                 </div>
+                 
+                 
+                 <div class="col-sm-3" >
+                 <div class="col-sm-3" >
+                 <div class="col-sm-3" >
+                           <h4 class="h4">Placement Portal</h4>
+                             <p class="f-para"> <br> </p>
+                           <h4 class="h4">Phone:</h4>
+                             <p class="f-para">+91-11-111111</p>
+                           <h4 class="h4">Email </h4>
+                             <p class="f-para">rku@placement.in</p>
+                 </div>
+              </div>
+        </footer>
+
+
+  </body>
+</html>
